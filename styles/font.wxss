@@ -1,0 +1,99 @@
+.font-34 {
+  font-size: 34rpx;
+}
+.font-black-34 {
+  font-size: 34rpx;
+  color: #353535;
+}
+
+.font-32 {
+  font-size: 32rpx;
+}
+.font-50 {
+  font-size: 50rpx;
+}
+.font-black-32 {
+  font-size: 32rpx;
+  color: #353535;
+}
+.font-gray-24 {
+  font-size: 24rpx;
+  color: #666666;
+}
+.font-30 {
+  font-size: 30rpx;
+}
+.font-black-40 {
+  font-size: 40rpx;
+  color: #353535;
+}
+.font-black-30 {
+  font-size: 30rpx;
+  color: #353535;
+}
+.font-gray-30 {
+  color: #888;
+  font-size: 30rpx;
+}
+.font-gray-20{
+  color: #888;
+  font-size: 20rpx;
+}
+.font-black-22{
+  color: #333333;
+  font-size: 22rpx;
+}
+.font-gary-22 {
+  color: #999999;
+  font-size: 22rpx;
+}
+.font-gary-24{
+  color: #999999;
+  font-size: 24rpx;
+}
+.font-gary-26 {
+  color: #999999;
+  font-size: 26rpx;
+}
+.font-28 {
+  font-size: 28rpx;
+}
+.font-gray-28 {
+  color: #888;
+  font-size: 28rpx;
+}
+.font-black-28 {
+  color: #353535;
+  font-size: 28rpx;
+}
+.font-black-20 {
+  color: #353535;
+  font-size: 20rpx;
+}
+.font-26 {
+  font-size: 26rpx;
+}
+.font-gray-26 {
+  color: #888;
+  font-size: 26rpx;
+}
+.font-black-26 {
+  color: #353535;
+  font-size: 26rpx;
+}
+.font-black-24 {
+  color: #333333;
+  font-size: 24rpx;
+}
+.font-black-25 {
+  color: #333333;
+  font-size: 25rpx;
+}
+.font-white-40{
+  font-size: 40rpx;
+  color: #ffffff;
+}
+.font-white-34{
+  font-size: 34rpx;
+  color: #ffffff;
+}

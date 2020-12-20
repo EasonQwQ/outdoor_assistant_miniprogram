@@ -1,0 +1,27 @@
+<view class="popover">
+  <slot></slot>
+</view>
+<l-mask l-class="container-bg" show="{{show}}" showMask="{{true}}" contentAlign="bottom" locked="{{locked}}" bind:lintap="handleClickPopUp" z-index="{{zIndex}}">
+  <view class="slot" style="margin-left:{{marginLeft}}rpx;margin-top:{{marginTop}}rpx;">
+    <view wx:for="{{ itemList }}" wx:key="name" hover-class="{{isHover?'list-hover':''}}">
+      <l-button bind:lintap="handleClickItem" data-index="{{ index }}" data-item="{{ item }}" open-type="{{ item.openType }}" icon="{{ item.icon }}" type="default" size="large" special="{{true}}" long>
+        <view style="{{ item.color ? 'color: ' + item.color : '' }}" class="l-item-button l-class-item l-item-class {{item.image || item.icon ? 'l-image-button':''}}">
+          <image wx:if="{{item.image}}" class="l-button-image" src="{{item.image}}" style="{{item.imageStyle}}" />
+          <l-icon wx:elif="{{ item.icon }}" name="{{ item.icon }}" l-class="l-item-button" size="{{ item.iconSize }}" color="{{item.iconColor?item.iconColor:item.color}}"></l-icon>
+          <text class="l-button-text">{{ item.name }}</text>
+        </view>
+      </l-button>
+    </view>
+  </view>
+</l-mask>
+<view class="hide-slot" style="margin-left:{{marginLeft}}rpx;margin-top:{{marginTop}}rpx;opacity:0" >
+    <view wx:for="{{ itemList }}" wx:key="name" hover-class="{{isHover?'list-hover':''}}">
+      <l-button bind:lintap="handleClickItem" data-index="{{ index }}" data-item="{{ item }}" open-type="{{ item.openType }}" icon="{{ item.icon }}" type="default" size="large" special="{{true}}" long>
+        <view style="{{ item.color ? 'color: ' + item.color : '' }}" class="l-item-button l-class-item l-item-class {{item.image || item.icon ? 'l-image-button':''}}">
+          <image wx:if="{{item.image}}" class="l-button-image" src="{{item.image}}" style="{{item.imageStyle}}" />
+          <l-icon wx:elif="{{ item.icon }}" name="{{ item.icon }}" l-class="l-item-button" size="{{ item.iconSize }}" color="{{item.iconColor?item.iconColor:item.color}}"></l-icon>
+          <text class="l-button-text">{{ item.name }}</text>
+        </view>
+      </l-button>
+    </view>
+  </view>

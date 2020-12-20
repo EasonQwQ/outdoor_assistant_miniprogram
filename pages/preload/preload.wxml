@@ -1,0 +1,7 @@
+<view class="page-view-center">
+  <l-loading type="circle" show="{{showLoading}}" wx:if="{{showLoading}}" />
+  <view wx:else>
+    服务器出错了，请联系
+    <text bind:tap="call" data-number="17895097040">17895097040</text>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+<l-card full type="cover" image="{{imageBaseUrl+data.mainImg}}" title="{{data.title}}" l-class="life-container" l-img-class="life-img" l-title-class="life-title" bindtap="onProduct" data-id="{{data.id}}">
+  <view class='life-product-contianer'>
+    <text class='art-content'>{{data.description}}</text>
+    <view class="d1">
+      <view>{{formatStartDate }}</view>
+      <view class="t1">报名</view>
+    </view>
+  </view>
+</l-card>

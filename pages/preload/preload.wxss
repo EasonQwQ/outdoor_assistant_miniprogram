@@ -1,0 +1,5 @@
+/* pages/preload/preload.wxss */
+text{
+  color: rgb(79, 162, 218);
+  text-decoration: underline;
+}

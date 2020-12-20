@@ -1,0 +1,15 @@
+<view class="page-view">
+  <view class="" wx:if="{{!userInfo.userDetail}}">
+    <l-button bind:getuserinfo="getSystemUserInfo" open-type="getUserInfo">登录</l-button>
+  </view>
+  <view wx:else>
+    <TopView userInfo="{{userInfo}}" />
+  </view>
+  <view class="row-view">
+    <navigator class="row" url="/pages/exchange_point/exchange_point">
+      <image src="/images/my_info/1.png" class="image" />
+      <text class="text">兑换积分</text>
+      <image src="/images/arrow.png" class="image arrow" />
+    </navigator>
+  </view>
+</view>

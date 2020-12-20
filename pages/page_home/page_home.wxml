@@ -1,0 +1,3 @@
+<view class="page-view">
+  <l-water-flow generic:l-water-flow-item="Card" />
+</view>

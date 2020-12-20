@@ -1,0 +1,46 @@
+
+.success,
+.color-green {
+  color: #09BB07;
+}
+
+.color-blue {
+  color: #576B95;
+}
+
+.error,
+.color-red {
+  color: #E64340;
+}
+
+.warning,
+.color-orange {
+  color: #F56A00;
+}
+
+.color-yellow {
+  color: #FFBF00
+}
+
+.color-gray {
+  color: #888888;
+}
+
+.color-black {
+  color: #353535;
+}
+.bg-color-fff {
+  background-color: #fff;
+}
+.color-darkgrey{
+  color: darkgray;
+}
+.color-white{
+  color: #fff;
+}
+.bg-color-red{
+  background: #F75454;
+}
+.bg-btn{
+  background-color: #FFCC80;
+}

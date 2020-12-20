@@ -1,0 +1,8 @@
+<view class="page-view">
+  <l-input label="订单编号" placeholder="请输入面包多订单编号" clear="{{true}}" bind:lininput="inputOrder" value="{{inputValue}}" />
+  <l-button class="btn" bind:tap="exchangePoint">兑换</l-button>
+</view>
+<l-toast />
+<l-mask show="{{showLoading}}" center="{{true}}">
+  <l-loading show="{{showLoading}}" type="change"></l-loading>
+</l-mask>

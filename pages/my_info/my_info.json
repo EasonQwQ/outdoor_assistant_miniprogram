@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "TopView":"./components/top_view/top_view"
+  },
+  "navigationBarTitleText": "我的"
+}

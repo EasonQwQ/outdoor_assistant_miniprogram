@@ -1,0 +1,67 @@
+<wxs module="filter" src="../../utils/filter.wxs"></wxs>
+<view class='contain'>
+  <view class='point'>
+    <view class='top-user-img'>
+      <view class='userinfo-avatar'>
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+    </view>
+    <view class="my-point-view">
+      <text class="current-points">当前积分</text>
+      <text class="point-text">{{userInfo.memberPoint}}</text>
+    </view>
+  </view>
+  <view class="center-view">
+    <view class='text-small order-detail-title '>积分记录</view>
+  <view class='emptyText' wx:if='{{order==null||order.length<=0}}'>
+    <text>{{infoMsg}}</text>
+  </view>
+  <block wx:for="{{order}}" wx:key="id" wx:if='{{infoMsg==null||infoMsg==""}}'>
+    <view class='order-items'>
+      <view class="outside-view">
+        <view class='order-detail-item-top '>
+          <text class='text-normal standardRight'>{{item.typeName}}</text>
+          <text class='order-detail-item-bottom text-small'>{{item.createDate}}</text>
+        </view>
+        <view>
+          <text class='order-detail-item-right text-normal' wx:if='{{item.addOrMinus==1}}'>+{{item.payPoints}}
+          </text>
+          <text class='order-detail-item-right text-normal' wx:else>-{{item.payPoints}}</text>
+        </view>
+      </view>
+    </view>
+  </block>
+  </view>
+</view>
+<!-- <wxs module="filter" src="../../utils/filter.wxs"></wxs>
+<view class='contain'>
+  <view class='point'>
+    <view class='top-user-img'>
+      <view class='userinfo-avatar'>
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+    </view>
+    <view class="my-point-view">
+      <text>当前积分</text>
+      <text >{{userInfo.memberPoint}}</text>
+    </view>
+  </view>
+  <view class='text-small order-detail-title standardLeft'>积分记录</view>
+  <view class='emptyText' wx:if='{{order==null||order.length<=0}}'>
+    <text>{{infoMsg}}</text>
+  </view>
+  <block wx:for="{{order}}" wx:key="id" wx:if='{{infoMsg==null||infoMsg==""}}'>
+    <view class='order-items'>
+      <view class='order-detail-item-top standardLeft'>
+        <text class='text-normal standardRight'>{{item.typeName}}</text>
+        <text class='order-detail-item-bottom text-small'>{{item.createDate}}</text>
+      </view>
+      <view>
+        <text class='order-detail-item-right text-normal' wx:if='{{item.addOrMinus==1}}'>
+          +{{item.payPoints}}
+        </text>
+        <text class='order-detail-item-right text-normal' wx:else>-{{item.payPoints}}</text>
+      </view>
+    </view>
+  </block>
+</view> -->

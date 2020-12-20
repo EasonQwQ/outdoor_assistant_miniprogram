@@ -1,0 +1,3 @@
+<l-popover>
+  <view class="vv" bind:tap="showPopover"></view>
+</l-popover>

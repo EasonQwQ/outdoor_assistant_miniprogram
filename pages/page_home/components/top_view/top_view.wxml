@@ -1,0 +1,16 @@
+<view class="user-avatar-box">
+  <view class="left">
+    <UserAvatar width="{{116}}" bindtap="navigatorPage" data-url="/pages/newMyPage/my_info/my_info"></UserAvatar>
+  </view>
+  <view class="middle" bind:tap="navigatorPage" data-url="/pages/newPointFlowPage/newPointFlow">
+    <open-data type="userNickName" lang="en" class="name" />
+    <view class="row">
+      <view class="point">积分: {{userInfo.memberPoint}}</view>
+      <image src="/images/right.png" class="small-img-png" />
+    </view>
+  </view>
+  <navigator class="right" url="/pages/myCoupon/home" wx:if="{{isEmployeeFlag}}">
+    <image src="/images/new_my/coupon.png" />
+    <text>卡券中心</text>
+  </navigator>
+</view>

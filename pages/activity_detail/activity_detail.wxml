@@ -1,0 +1,22 @@
+<view class="page-view">
+  <image class="main-image" src="{{imageBaseUrl+activityData.mainImg}}" mode="aspectFill" />
+  <view class="content-view">
+    <view class="name">{{activityData.name}}</view>
+    <view class="description">{{activityData.description}}</view>
+    <view class="meeting-place">
+      集合地点:
+      <view class="description">{{activityData.meetingPlace}}</view>
+    </view>
+    <view class="transport-mode" wx:if="{{activityData.transportMode === 0 && disabled}}">
+      <l-button bindtap="navigator" data-url="../choose_start_mode/choose_start_mode">
+        选择自驾或者跟车
+      </l-button>
+    </view>
+  </view>
+</view>
+<view class="fixed-view">
+  <l-button bg-color="{{disabled?'#eee':''}}" size="long" type="warning" bindlintap="participate" disabled="{{disabled}}">
+    {{btnText}}
+  </l-button>
+</view>
+<l-toast />

@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/preload/preload",
+    "pages/page_home/page_home",
+    "pages/my_info/my_info",
+    "pages/exchange_point/exchange_point",
+    "pages/activity_detail/activity_detail",
+    "pages/choose_start_mode/choose_start_mode",
+    "pages/test-popover/index"
+  ],
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#7dc5eb",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "images/tabbar/11.png",
+        "iconPath": "images/tabbar/1.png",
+        "pagePath": "pages/page_home/page_home",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/tabbar/22.png",
+        "iconPath": "images/tabbar/2.png",
+        "pagePath": "pages/my_info/my_info",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "l-loading":"/miniprogram_npm/lin-ui/loading/index",
+    "l-button":"/miniprogram_npm/lin-ui/button/index",
+    "l-toast":"/miniprogram_npm/lin-ui/toast/index",
+    "l-mask":"/miniprogram_npm/lin-ui/mask/index",
+    "l-icon":"/miniprogram_npm/lin-ui/icon/index"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于选择地理位置"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

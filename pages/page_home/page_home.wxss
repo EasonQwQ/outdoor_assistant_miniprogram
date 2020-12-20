@@ -1,0 +1,17 @@
+/* pages/page_home/page_home.wxss */
+.top-row{
+  height: 300rpx;
+  padding-top: 150rpx;
+  box-sizing: border-box;
+  width: 750rpx;
+  background-color: #44cef6;
+}
+.page-view{
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.flex-row{
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 10rpx;
+}

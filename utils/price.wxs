@@ -1,0 +1,13 @@
+var calcPrice = function (num) {
+  var tempNum = Math.ceil(num / 10) / 10;
+  return parseFloat(tempNum).toFixed(2);
+};
+
+var initPoint = function (num) {
+  return parseFloat(num).toFixed(0);
+};
+
+module.exports = {
+  calcPrice: calcPrice,
+  initPoint: initPoint,
+};

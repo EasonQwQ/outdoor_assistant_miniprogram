@@ -1,0 +1,12 @@
+var filter = {
+  toFixedTwo:function(value) {
+    return value.toFixed(2);
+  },
+  toFixedOne:function(value) {
+    return value.toFixed(1);
+  },
+};
+module.exports = {
+  toFixedTwo: filter.toFixedTwo,
+  toFixedOne: filter.toFixedOne,
+};

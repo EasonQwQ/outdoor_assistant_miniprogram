@@ -1,0 +1,24 @@
+/* pages/activity_detail/activity_detail.wxss */
+.main-image{
+  width: 750rpx;
+  height: 900rpx;
+}
+.content-view{
+  padding: 20rpx;
+  width: 750rpx;
+  box-sizing: border-box;
+}
+.name{
+  font-size: 40rpx;
+  margin-bottom: 20rpx;
+}
+.description{
+  font-size: 28rpx;
+  color: #999999;
+}
+.disabled{
+  background-color: #eee;
+}
+.transport-mode{
+  color: blue;
+}

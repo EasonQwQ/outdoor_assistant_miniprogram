@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "l-icon": "/miniprogram_npm/lin-ui/icon/index",
+    "l-mask": "/miniprogram_npm/lin-ui/mask/index",
+    "l-button": "/miniprogram_npm/lin-ui/button/index"
+  }
+}

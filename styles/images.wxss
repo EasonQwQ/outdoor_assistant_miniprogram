@@ -1,0 +1,4 @@
+.right-arrow{
+  height: 35rpx;
+  width: 20rpx;
+}

@@ -1,0 +1,15 @@
+<map class="map" latitude="{{latitude}}" longitude="{{longitude}}">
+  <cover-view slot="callout">
+    <cover-view marker-id="1"></cover-view>
+    <cover-view marker-id="2"></cover-view>
+  </cover-view>
+</map>
+<view  wx:if="{{showDriveDetail}}">
+  我的乘车信息
+</view>
+<view wx:else class="div">
+  <l-button bind:lintap="changeShowHasCarTip">我有车</l-button>
+  <view class="content-dic" wx:if="{{showHasCarTip}}">
+    在地图上选择你的位置
+  </view>
+</view>

@@ -1,0 +1,4 @@
+/* pages/exchange_point/exchange_point.wxss */
+.btn {
+  margin: 50rpx auto;
+}

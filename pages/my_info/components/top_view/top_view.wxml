@@ -1,0 +1,12 @@
+<view class="user-avatar-box">
+  <view class="left">
+    <UserAvatar width="{{116}}" bindtap="navigatorPage" data-url="/pages/newMyPage/my_info/my_info"></UserAvatar>
+  </view>
+  <view class="middle" bind:tap="navigatorPage" data-url="/pages/newPointFlowPage/newPointFlow">
+    <open-data type="userNickName" lang="en" class="name" />
+    <view class="row">
+      <view class="point">积分: {{userInfo.point}}</view>
+      <image src="/images/arrow.png" class="small-img-png" />
+    </view>
+  </view>
+</view>

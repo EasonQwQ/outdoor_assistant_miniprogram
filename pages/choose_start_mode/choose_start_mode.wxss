@@ -1,0 +1,9 @@
+/* pages/choose_start_mode/choose_start_mode.wxss */
+.map {
+  width: 750rpx;
+  height: 900rpx;
+}
+.div {
+  padding: 20rpx;
+  width: 750rpx;
+}

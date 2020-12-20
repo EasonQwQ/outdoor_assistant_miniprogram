@@ -1,0 +1,52 @@
+@import 'styles/weui.wxss';
+@import 'styles/font.wxss';
+@import 'styles/color.wxss';
+@import 'styles/icon.wxss';
+@import 'styles/ui.wxss';
+@import 'styles/helper.wxss';
+@import 'styles/images.wxss';
+@import 'styles/page.wxss';
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.page-view{
+  font-size: 32rpx;
+  color: #333333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+}
+.page-view-align-center{
+  font-size: 32rpx;
+  color: #333333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+
+}
+.page-view-center{
+  font-size: 32rpx;
+  color: #333333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  justify-content: center;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+

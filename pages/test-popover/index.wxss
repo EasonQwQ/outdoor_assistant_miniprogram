@@ -1,0 +1,6 @@
+/* pages/test-popover/index.wxss */
+.vv {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: brown;
+}

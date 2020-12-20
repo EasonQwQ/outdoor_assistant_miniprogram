@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "TopView":"./components/top_view/top_view",
+    "Card":"/components/card/card",
+    "l-water-flow":"/miniprogram_npm/lin-ui/water-flow/index",
+    "l-segment":"/miniprogram_npm/lin-ui/segment/index",
+    "l-segment-item":"/miniprogram_npm/lin-ui/segment-item/index"
+  },
+  "navigationStyle":"default"
+}

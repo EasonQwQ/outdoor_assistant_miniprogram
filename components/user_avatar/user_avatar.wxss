@@ -1,0 +1,6 @@
+/* components/user_avatar/user_avatar.wxss */
+.box{
+  border-radius: 50%;
+  border: 1rpx solid #ffffff;
+  overflow: hidden;
+}
